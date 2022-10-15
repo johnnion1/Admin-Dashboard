@@ -236,11 +236,12 @@ width: 40px;
 }
 .card {
         height: 220px;
-        background-color: #1aa;
+        background-color: white;/* #1aa */;
         border-radius: 15px;
-        border: 2px solid #a9e;
         padding: 10px;
+        border-left: 15px solid #a9e;
 }
-.news {
-
+.cardHeading {
+        font-size: 1.2em;
+        padding-bottom: 10px;
 }

@@ -197,7 +197,7 @@ body, html {
         font-size: 0.95rem;
         font-weight: bold;
 }
-/* .lowerRight button:hover {
+.lowerRight button:hover {
         background-color: var(--main-color-four);
         border: 2px solid var(--main-color-two);
         box-shadow: 0 1px 4px rgb(80, 80, 80);
@@ -205,7 +205,7 @@ body, html {
 .lowerRight button:active {
         background-color: var(--main-color-one);
         box-shadow: 0 1px 5px rgb(80, 80, 80);
-} */
+}
 .content {
         display: grid;
         grid-template-columns: 4fr 1fr;

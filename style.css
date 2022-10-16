@@ -137,6 +137,10 @@ body, html {
         align-items: center;
         margin-right: 10px;
 }
+.upperRight3 a {
+        color: black;
+
+}
 .upperRight2 > div img {
         width: 40px;
         border-radius: 50%;
@@ -144,11 +148,22 @@ body, html {
 }
 
 .searchbar {
-        border: 1px solid black;
-        border-radius: 15px;
+        flex: 1;
+        display: flex;
+}
+.searchbar input {
+        appearance: none;
         height: 30px;
         min-width: 100px;
-        flex: 1;
+        flex:1;
+        border-radius: 15px;
+        border: 2px solid rgb(120, 120, 120);
+        font-size: 1.1em;
+        padding-left: 10px;
+}
+.searchbar input:focus{
+        outline: none;
+        
 }
 .lowerSection {
         grid-row: 4 / 5;
@@ -217,6 +232,7 @@ body, html {
 .content .heading {
         font-size: 1.3em;/* 
         min-height: 40px; */
+        font-;
 
 }
 .content > div {
@@ -258,6 +274,9 @@ body, html {
         grid-template-rows: repeat(3, 1fr);
         max-height: fit-content;
 }
+.lower {
+        grid-template-rows: repeat(4, auto);
+}
 .news {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
@@ -274,8 +293,11 @@ body, html {
         grid-row: 2 / 3;/* 
         background-color: #01aa5e; */
 }
-.subHeading {
-        font-weight: 600;
+.subHeading a {
+        color: black;
+        font-weight: 550;
+        text-decoration: none;
+        margin-bottom: 5px;
         
 }
 

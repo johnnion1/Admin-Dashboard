@@ -85,7 +85,7 @@ body, html {
         grid-template-columns: 1fr 3fr;
         margin-bottom: 5px;
         padding-bottom: 10px;
-        grid-gap: 15px;
+        grid-gap: 1.7vw;
         font-size: 1.15em;
         font-weight: 400;
 }

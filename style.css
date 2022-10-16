@@ -293,14 +293,16 @@ body, html {
         grid-row: 2 / 3;/* 
         background-color: #01aa5e; */
 }
-.subHeading a {
+.subPreview a, .subHeading a {
         color: black;
         font-weight: 550;
         text-decoration: none;
-        margin-bottom: 5px;
+       
         
 }
-
+.suggText .subHeading {
+        padding-bottom: 5px;
+}
 .subPreview * {
         display: inline;
 }

@@ -123,9 +123,7 @@ body, html {
         display: flex;
         align-items: center;
 }
-.upperRight1 div {
-        margin: 10px 0 0 0;
-}
+
 .upperRight2 {
         grid-row: 2 / 3;
         display: flex;

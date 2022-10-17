@@ -209,10 +209,15 @@ body, html {
         border-radius: 50%;
         border: 3px solid var(--main-color-two);
 }
+.dashGreeting p {
+        font-size: 1.15em;;
+}
 .dashGreeting p + div a{
-        font-size: 1.1rem;
-        text-decoration: underline;
-        color: black
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: black;
+        font-weight: 550;
+        line-height: 0px;
 }
 .lowerLeft, .lowerRight {
         display: grid;
@@ -260,11 +265,13 @@ body, html {
         /* padding: 15px; */
         
 }
-.content .heading {
+.content .heading p {
         font-size: 1.3em;/* 
         min-height: 40px; */
-        font-;
+        /* line-height: 20px; */
+        margin: 20px 0 10px 2px;
 
+        
 }
 .content > div {
         padding-left: 15px;

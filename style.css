@@ -146,10 +146,41 @@ body, html {
         border-radius: 50%;
         border: 2px solid orange;
 }
-
+.searchButton {
+        background: none;
+        border: none;
+        width: 4vh;
+        height: 4vh;
+        position: relative;
+        top: 2px;
+}
+.searchButton:hover {
+        
+}
+.filter-accent:hover {
+        filter: invert(54%) 
+        sepia(0%) 
+        saturate(247%) 
+        hue-rotate(199deg) 
+        brightness(15%) 
+        contrast(76%);
+        box-shadow: 0 1px 4px;
+        border-radius: 45%;
+}
+.filter-accent:active {
+        filter: invert(54%) 
+        sepia(0%) 
+        saturate(247%) 
+        hue-rotate(230deg) 
+        brightness(65%) 
+        contrast(90%);
+        box-shadow: 0 2px 7px;
+        border-radius: 45%;
+}
 .searchbar {
         flex: 1;
         display: flex;
+        
 }
 .searchbar input {
         appearance: none;
@@ -157,7 +188,7 @@ body, html {
         min-width: 100px;
         flex:1;
         border-radius: 15px;
-        border: 2px solid rgb(120, 120, 120);
+        border: 2px solid #787878;
         font-size: 1.1em;
         padding-left: 10px;
 }

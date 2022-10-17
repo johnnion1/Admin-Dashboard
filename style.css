@@ -15,7 +15,7 @@ body, html {
         height: 100%;
 }
 .wrapper {
-        background-color: rgb(212, 255, 241);
+        background-color: rgb(211, 242, 232);
         height: 100%;
         display: grid;
         grid-template-columns: 1fr 3.5fr;
@@ -184,13 +184,17 @@ body, html {
 }
 .searchbar input {
         appearance: none;
-        height: 30px;
+        height: 31px;
         min-width: 100px;
         flex:1;
         border-radius: 15px;
-        border: 2px solid #787878;
+        border: none;
         font-size: 1.1em;
-        padding-left: 10px;
+        padding-left: 11px;
+        background-color: rgb(211, 242, 232);
+        color: black/* #047abf */;
+        letter-spacing: 1px;
+        text-shadow: 1px 1px #d2d2d299;
 }
 .searchbar input:focus{
         outline: none;

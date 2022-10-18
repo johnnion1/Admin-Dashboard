@@ -5,6 +5,8 @@
         --main-color-four: rgb(53, 210, 231);
 
         --right-side-spacing: 20px;
+
+        font-family: Roboto;
 }
 
 * {

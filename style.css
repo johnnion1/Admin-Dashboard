@@ -286,7 +286,7 @@ body, html {
         padding-left: 15px;
         padding-right: 15px;
 }
-.main {
+.mainContent {
         grid-column: 1 / 2;
         grid-row: 1 / -1;
         /*nice green   ; background-color: #01aa5e; */
@@ -327,6 +327,10 @@ body, html {
 .cardActions {
         justify-self: flex-end;   
         margin-right: 4px;     
+}
+.sideContent {
+        position: sticky;
+        top: 0px;
 }
 .subContent {
         border-radius: 10px;

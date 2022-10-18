@@ -278,7 +278,7 @@ body, html {
         font-size: 1.3em;/* 
         min-height: 40px; */
         /* line-height: 20px; */
-        margin: 20px 0 10px 2px;
+        margin: 20px 0 12px 2px;
 
         
 }
@@ -297,14 +297,14 @@ body, html {
 
 .projectCards {
         display: grid;
-        grid-gap: 10px;
+        grid-gap: 20px;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 
 }
 .card {
         height: 220px;
         background-color: white;/* #1aa */;
-        border-radius: 15px;
+        border-radius: 10px;
         padding: 10px;
         border-left: 15px solid #a9e;
         display: grid;

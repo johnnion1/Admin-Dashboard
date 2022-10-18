@@ -302,12 +302,27 @@ body, html {
         border-radius: 15px;
         padding: 10px;
         border-left: 15px solid #a9e;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
 }
 .cardHeading {
-        font-size: 1.2em;
-        padding-bottom: 5px;
+        font-size: 1.15em;
+        padding: 10px 0 8px;
+        font-weight: 550;
+}
+.cardActions img {
+        width: 24px;
+        height: 24px;
+        margin: 4px;
+}
+.cardActions .first {
+        margin-right: 6px;
 }
 
+.cardActions {
+        justify-self: flex-end;   
+        margin-right: 4px;     
+}
 .subContent {
         border-radius: 10px;
         background-color: #fff;

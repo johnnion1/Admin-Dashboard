@@ -3,6 +3,8 @@
         --main-color-two: rgb(38, 147, 255);
         --main-color-three: rgb(64, 163, 255)/* rgb(150, 160, 241) */;
         --main-color-four: rgb(53, 210, 231);
+
+        --right-side-spacing: 20px;
 }
 
 * {
@@ -15,18 +17,18 @@ body, html {
         height: 100%;
 }
 .wrapper {
-        background-color: rgb(211, 242, 232);
         height: 100%;
         display: grid;
-        grid-template-columns: 1fr 3.7fr 20px;
-        grid-template-rows: 1fr 5fr auto;
+        grid-template-columns: 1fr 3.7fr var(--right-side-spacing);
+        grid-template-rows: 1fr 5fr;
+        grid-auto-rows: min-content;
 
 }
 .header {
         background-color: #ffffff;
         grid-column: 2 / 4;
         display: grid;
-        grid-template-columns: 1fr repeat(3, auto) 20px;
+        grid-template-columns: 1fr repeat(3, auto) var(--right-side-spacing);
         grid-template-rows: 6px auto 2vh auto 10px;
 }
 
@@ -262,10 +264,12 @@ body, html {
         box-shadow: 0 1px 5px rgb(80, 80, 80);
 }
 .content {
+        background-color: rgb(211, 242, 232);
         display: grid;
-        grid-template-columns: 4fr 1fr;
+        grid-template-columns: 4fr 1fr var(--right-side-spacing);
         grid-template-rows: auto auto;
-        grid-column: 2 / 3;
+        grid-column: 2 / -1;
+        grid-row: 2 / -1;
         /* grid-gap: 15px; */
         /* padding: 15px; */
         
@@ -286,8 +290,8 @@ body, html {
         grid-column: 1 / 2;
         grid-row: 1 / -1;
         /*nice green   ; background-color: #01aa5e; */
-        height: 80vh;
-        overflow:scroll;
+        height: auto;
+       
         
 }
 
